@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 0;}
+body {
+    background-color: white;
+}
+header {
+    background-color: rgb(52, 152, 199);   
+    color: black;
+    font-size:45px;
+}
+
+header nav {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#About_Me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#About_Me article, #Work aside, #Contact_Me h1{
+    font-size: 50px;
+    color: rgb(10, 10, 97);
+}
+#About_Me img {
+    width: 270px;
+    height: 250px;
+}
+#Work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+aside, article {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 10px;
+    flex-wrap: wrap;
+}
+.Snippet img {
+    width: 540px;
+    height: 500px;
+}
+.Horiseon img {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 10px;
+    width: 270px;
+    height: 250px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+}
