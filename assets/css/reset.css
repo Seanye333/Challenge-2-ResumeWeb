@@ -1,0 +1,52 @@
+/* * {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 0;}
+
+header{
+    background-color: rgb(52, 152, 199);   
+    color: black;
+}
+
+header nav li{
+    background-color: rgb(189, 199, 52);   
+    color: black;
+}
+.Sean-Ye {
+    width: 270px;
+    height: 245px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.AutomationEngineer {
+    width: 270px;
+    height: 245px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+ check font family */
+    /* background-color: rgba(221, 228, 215, 0.856); */
+/* }   
+
+nav {
+    FONT-WEIGHT: 200;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    header nav {
+        padding-top: 15px;
+        margin-right: 0px;
+        float: right;
+        font-size: 17px;
+    }
+  }  */
