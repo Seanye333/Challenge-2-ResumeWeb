@@ -1,4 +1,4 @@
-# Horiseon Services Homepage
+# Yuxiang (Sean) Ye's Portfolio
 ## Link to application 
 https://seanye333.github.io/Challenge-2-ResumeWeb/
 
@@ -22,7 +22,7 @@ To install this project within your computer, please follow the instruction belo
 6. Website will display on your default browser
 
 ## Usage
-Please open the HTML file (index.html) in a web browser to view the Horiseon Services homepage. The CSS file (style.css & reset.css) is referenced in the HTML file and automatically applied to the webpage in the web browser. The website will be deployed for all customer to use by simply copy and paste to browser.
+Please open the HTML file (index.html) in a web browser to view the homepage. The CSS file (style.css & reset.css) is referenced in the HTML file and automatically applied to the webpage in the web browser. The website will be deployed for all customer to use by simply copy and paste to browser.
 
 ![alt text](assets/images/Challenge2-resume-web-screenshot.jpg)
 
