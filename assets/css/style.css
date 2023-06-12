@@ -1,13 +1,19 @@
+/* Univseral selection: all elements are using following box size, padding and margin */
 * {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
     margin: 0;
 }
+
+/* set background color to white for body  */
 body {
     background-color: white;
 }
 
+/* change header background and text color */
+/* center all text */
+/* create solid border with 1px line */
 header {
     background-color: rgb(52, 152, 199);   
     color: black;
@@ -17,6 +23,9 @@ header {
     border-width: 1px;
 }
 
+/* enable flexbox */
+/* change font to 20px and center it */
+/* push navigation bars to the end */
 header nav {
     display: flex;
     font-size: 20px;
@@ -24,17 +33,21 @@ header nav {
     justify-content: flex-end;
 }
 
+/* create outset style with 4px and new color to navigation tabs */
 header nav h2{
     background-color: #efe047;
     color: black;
     border-style: outset;
     border-width: 4px;
 }
+
+/* change main layout with solid border and 1px width */
 main{
     border-width: 1px;
     border-style: solid;
 }
 
+/* change section title styles */
 aside {
     font-size: 50px;
     color: rgb(10, 10, 97);
@@ -43,7 +56,7 @@ aside {
     border-width: 1px;
     background-color:aqua;
 }
-
+/* styling to about be sections including image of employee and description */
 #About_Me {
     display: flex;
     flex-direction: row;
@@ -63,17 +76,19 @@ aside {
     border-width: 1px;
 }
 
+/* add borderlines to project' images */
 article{
     border-width: 1px;
     border-style: solid;
 }
 
+/* adding hover effect to projects' images */
 article:hover {
     color:rgb(238, 227, 78);
     box-shadow: 0 5px 15px rgb(238, 227, 78);
     transition: flex-basis 500ms linear;
 }
-
+/* adding flex box and color and layout to the images */
 #Work {
     background-color:#bdb2f4;
     padding: 0px;
@@ -85,6 +100,7 @@ article:hover {
     border-style: solid;
 }
 
+/* adding styles to title and code types of projects */
 .images_title, .images_title2, .code_types, .code_types2{ 
     position: relative; 
     color: black;
@@ -92,6 +108,7 @@ article:hover {
     text-align: center;
 }
 
+/* adding styles to title and code types of first project */
 .images_title, .images_title2{  
     margin: 0rem 0 -0.5rem 0;
     padding: 0.5rem 1rem;
@@ -100,7 +117,7 @@ article:hover {
     height: 40px;
     width: 195px;
 }
-
+/* adding styles to title and code types of next four projects */
 .code_types, .code_types2{ 
     margin: -3rem 0 -0.5rem 0px;
     background-color: #ef4747;
@@ -108,17 +125,18 @@ article:hover {
     height: 40px;
     width: 195px;
 }  
-
+/* set size of first project */
 .large{
     width: 850px;
     height: 700px;
 }
-
+/* set size of next four projects */
 .Mid{
     width: 425px;
     height: 350px;
 }
 
+/* set style to contact me section  */
 #Contact_Me {
     display: flex;
     flex-direction: row;
@@ -130,11 +148,12 @@ article:hover {
     background-color:#bdb2f4;
 }
 
+/* center text for the footer paragraph */
 footer {
     text-align: center;
 }
 
-/* Tablets and Under devices */
+/* Make webpage responsive to Tablets and devices under 821px */
 @media screen and (max-width: 821px) {
     header{
         height: 250px;
@@ -173,7 +192,7 @@ footer {
     }
 }
 
-/* Cellphone devices */
+/* Make webpage responsive toCellphone devices under 550px */
 @media screen and (max-width: 550px) {
     header{
         height: 235px;
@@ -212,6 +231,7 @@ footer {
     }
 }
 
+/* Make webpage responsive to devices under 281px */
 @media screen and (max-width: 281px) {
     header{
         height: 235px;

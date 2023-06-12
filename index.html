@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- HTML-5 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Yuxiang (Sean) Ye Resume Web </title>
+    <!-- title of the web -->
+    <title> Yuxiang (Sean) Ye Portfolio Web </title>
+    <!-- Linking into both style.css and reset.css to ensure all browsers are working with this code -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
     <header>
+        <!-- header on the top -->
        <h1>Yuxiang (Sean) Ye</h1> 
         <nav>
+            <!-- Use a href to allow user to click on the tab to navigate to the destinate section -->
             <h2>
             <a href="#About Me">About Me </a>
             </h2>
@@ -21,18 +26,23 @@
             <h2> 
             <a href="#Contact">Contact Me </a>
             </h2>
+            <!-- Added a push button to link into resume word document, download will start once clicks -->
             <h3><button onclick="location.href='./assets/WordDoc/YuxiangYe-Resume.docx';"> Download Resume File </button></h2>
         </nav>
     </header>
     <main>
+        <!-- Use aside for the section title -->
         <aside id = "About Me"> About Me </aside>
+        <!-- Use section element for all three sections -->
         <section id="About_Me">
             <img src="./assets/Images/Sean_Ye.JPG"; alt="A picture of Sean Ye is displayed on the About Me section" >
             <p>My name is Sean Ye. I have five years of experience as an Electrical/Control Project Engineer, specializing in process improvement and automation projects in an industrial manufacturing environment. Seeking a challenging position with a company to utilize my experience and knowledge, with opportunities for career growth and advancement. Strengths include Project Management, Electrical Power Systems design, Control Systems design and analysis, and various programming skills. Currently working on my PMP Certification. Bilingual in Chinese and English.</p>
         </section>
         <aside id="Works">Work </aside>
         <section id="Work">
-                <article class= "Work_Images">                 
+             <!-- Use article element for images, title of the images, and code style included for the image -->
+                <article class= "Work_Images">
+             <!-- Use a href to allow user to click on the images to navigate to each applications' web-->
                     <a href="https://github.com/Seanye333/Challenge1-HoriseonWeb.git" target="_blank">
                         <h1 class="images_title"> Horiseon Services </h1>
                         <img class = "large" src="./assets/Images/HoriseonWeb_Screenshot.png"; alt="an overview of horiseon Services website layout is displayed">
@@ -70,6 +80,7 @@
         </section>  
         <aside id="Contact">Contact</aside>      
         <section id="Contact_Me">
+            <!-- use a href to allow user click on each tab to corresponse to each item below -->
             <a href = "tel:+347-993-7692 "> ☎️ Phone </a> 
             <a href ="mailto: seanye86@gmail.com"> 📧 E-mail </a>
             <a href = "https://github.com/Seanye333"> 📀 GitHub </a>
