@@ -24,7 +24,7 @@ To install this project within your computer, please follow the instruction belo
 ## Usage
 Please open the HTML file (index.html) in a web browser to view the homepage. The CSS file (style.css & reset.css) is referenced in the HTML file and automatically applied to the webpage in the web browser. The website will be deployed for all customer to use by simply copy and paste to browser.
 
-![alt text](assets/images/Challenge2-resume-web-screenshot.jpg)
+![alt text](assets/images/Challenge2-resume-web-screenshot.JPG)
 
 ## Credits
 To understand how some of the flexbox functions, a youtube video was utilized to learn the concepts: https://www.youtube.com/watch?v=0e02dl66PYo
