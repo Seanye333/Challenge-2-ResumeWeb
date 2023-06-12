@@ -11,7 +11,7 @@ body {
 header {
     background-color: rgb(52, 152, 199);   
     color: black;
-    font-size:45px;
+    font-size:30px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -24,15 +24,20 @@ header nav {
     justify-content: flex-end;
 }
 
-main {
-    display:flex;
+header nav h2{
+    background-color: #efe047;
+    color: black;
+    border-style: outset;
+    border-width: 4px;
+}
+main{
+    border-width: 1px;
+    border-style: solid;
 }
 
 aside {
-    flex-direction: column;
     font-size: 50px;
     color: rgb(10, 10, 97);
-    flex: 1 0 0;
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -43,10 +48,11 @@ aside {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    text-align: center;
+    text-align: left;
     border-style: solid;
     border-width: 1px;
     background-color:#bdb2f4;
+    font-size: 30px;
 }
 
 #About_Me img {
@@ -55,6 +61,11 @@ aside {
     text-align: center;
     border-style: solid;
     border-width: 1px;
+}
+
+article{
+    border-width: 1px;
+    border-style: solid;
 }
 
 article:hover {
@@ -70,69 +81,42 @@ article:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    border-width: 5px;
+    border-width: 1px;
+    border-style: solid;
 }
 
-.images_title {  
+.images_title, .images_title2, .code_types, .code_types2{ 
     position: relative; 
-    margin: 0rem 0 -0.5rem 0;
-    padding: 0.5rem 11rem;
-    background-color:#fff400d9;
     color: black;
     border: 3px solid;
-    border-radius: 10px;
-    transition: all 0.5s ease-in-out;
+    text-align: center;
 }
 
-.code_types { 
-    position: relative;
-    margin: -3rem 0 -0.5rem 0px;
-    padding: 0.5rem 10rem;
-    background-color: #ef4747;
-    color: black;
-    border: 3px solid;
-    border-radius: 5px;
-    transition: all 0.5s ease-in-out;
-    text-align: center;
-}  
-
-.images_title2 {
-    position: relative;
+.images_title, .images_title2{  
     margin: 0rem 0 -0.5rem 0;
     padding: 0.5rem 1rem;
-    background-color: #fff400d9;
-    color: black;
-    border: 3px solid;
+    background-color:#fff400d9;
     border-radius: 10px;
-    transition: all 0.5s ease-in-out;
     height: 40px;
     width: 195px;
-    text-align: center;
 }
 
-.code_types2 {
-    position: relative;
-    margin: -3rem 0 -0.5rem 0;
+.code_types, .code_types2{ 
+    margin: -3rem 0 -0.5rem 0px;
     background-color: #ef4747;
-    color: black;
-    border: 3px solid;
     border-radius: 5px;
-    transition: all 0.5s ease-in-out;
-    text-align: center;
     height: 40px;
     width: 195px;
 }  
 
-
 .large{
-    width: 540px;
-    height: 500px;
+    width: 850px;
+    height: 700px;
 }
 
 .Mid{
-    width: 270px;
-    height: 250px; 
+    width: 425px;
+    height: 350px;
 }
 
 #Contact_Me {
@@ -142,7 +126,7 @@ article:hover {
     text-align: center;
     border-style: solid;
     border-width: 1px;
-    font-size: 30px;
+    font-size: 20px;
     background-color:#bdb2f4;
 }
 
@@ -150,9 +134,118 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-    body {
-        padding: 0px;
-        margin: 0px;
+/* Tablets and Under devices */
+@media screen and (max-width: 821px) {
+    header{
+        height: 250px;
     }
-  } 
+    header nav {
+       flex-direction: column;
+    }
+    header nav h2 {
+        padding: 10px;
+        border-width: 2px;
+    }
+    #About_Me {
+    font-size: 18px;
+    }
+    #About_Me img {
+    width: 150px;
+    height: 172px;
+    } 
+    .large{
+    width: 600px;
+    height: 400px;
+    }
+
+    .Mid{
+    width: 300px;
+    height: 200px;
+    }
+    #Contact_Me{
+        font-size: 12px;
+    }
+    .images_title, .images_title2, .code_types, .code_types2{  
+        height: 20px;
+        width: 120px; 
+        font-size: 9px;
+        margin: 0rem 0px 0rem 0px;
+    }
+}
+
+/* Cellphone devices */
+@media screen and (max-width: 550px) {
+    header{
+        height: 235px;
+    }
+    header nav {
+       flex-direction: column;
+    }
+    header nav h2 {
+        padding: 10px;
+        border-width: 2px;
+    }
+    #About_Me {
+        font-size: 11px;
+    }
+    #About_Me img {
+        width: 150px;
+        height: 172px;
+    } 
+    .large{
+        width: 300px;
+        height: 250px;
+    }
+    
+    .Mid{
+        width: 150px;
+        height: 125px;
+    }
+    #Contact_Me{
+        font-size: 12px;
+    }
+    .images_title, .images_title2, .code_types, .code_types2{  
+        height: 20px;
+        width: 120px; 
+        font-size: 9px;
+        margin: 0rem 0px 0rem 0px;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    header{
+        height: 235px;
+    }
+    header nav {
+       flex-direction: column;
+    }
+    header nav h2 {
+        padding: 10px;
+        border-width: 2px;
+    }
+    #About_Me {
+        font-size: 11px;
+    }
+    #About_Me img {
+        width: 90px;
+        height: 105px;
+    } 
+    .large{
+        width: 200px;
+        height: 150px;
+    }
+    
+    .Mid{
+        width: 100px;
+        height: 75px;
+    }
+    #Contact_Me{
+        font-size: 12px;
+    }
+    .images_title, .images_title2, .code_types, .code_types2{  
+        height: 15px;
+        width: 110px;
+        font-size: 8px;
+        margin: 0rem 0px 0rem 0px;
+    }
+}
