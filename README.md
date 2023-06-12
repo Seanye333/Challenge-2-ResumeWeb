@@ -1,6 +1,6 @@
 # Horiseon Services Homepage
 ## Link to application 
-https://github.com/Seanye333/Challenge-2-ResumeWeb
+https://seanye333.github.io/Challenge-2-ResumeWeb/
 
 ## Description
 This repository contains the code for Yuxiang (Sean) Ye Portfolio Webpage. It includes both the HTML and CSS files necessary to display the webpage correctly.
